@@ -32,7 +32,8 @@ int main(){
     int H=4;
     int W=4;
     dim3 block(1, 1, 1);
-    dim3 grid(H, W, 1);
+    dim3 grid(1024, 1, 1);
+    dim3 
 
     // original_data and result; 
     int *A = (int*)malloc(H*W*sizeof(int));
